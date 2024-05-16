@@ -1,5 +1,5 @@
 import { DataProvider } from '../src/data-interfaces'
-import { initDataProvider } from './initDataProvider'
+import { initDataProvider } from './initDataProvider.js'
 
 export function initDataProviderOrJson(
   dataProvider:

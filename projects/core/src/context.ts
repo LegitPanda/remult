@@ -33,7 +33,7 @@ import type {
 } from './live-query/SubscriptionServer.js'
 import { verifyFieldRelationInfo } from './remult3/relationInfoMember.js'
 import { remultStatic, resetFactory } from './remult-static.js'
-import { initDataProvider } from '../server/initDataProvider'
+import { initDataProvider } from '../server/initDataProvider.js'
 
 export class RemultAsyncLocalStorage {
   static enable() {
