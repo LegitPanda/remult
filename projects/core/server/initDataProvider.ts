@@ -1,5 +1,5 @@
 import type { DataProvider } from '../src/data-interfaces.js'
-import { remultStatic } from '../src/remult-static'
+import { remultStatic } from '../src/remult-static.js'
 
 export function initDataProvider(
   optionsDataProvider:

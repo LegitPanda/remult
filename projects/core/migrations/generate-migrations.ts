@@ -13,7 +13,7 @@ import {
   type MigrationCode,
 } from './migration-types.js'
 import { isOfType } from '../src/isOfType.js'
-import { initDataProviderOrJson } from '../server/initDataProviderOrJson'
+import { initDataProviderOrJson } from '../server/initDataProviderOrJson.js'
 
 /**
  * Generates migration scripts based on changes in entities.

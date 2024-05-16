@@ -1,4 +1,3 @@
-import { initDataProvider } from '../server/initDataProvider.js'
 import { Remult } from '../src/context.js'
 import type { DataProvider, Storage } from '../src/data-interfaces.js'
 import type {
@@ -10,7 +9,7 @@ import { EntityBase } from '../src/remult3/RepositoryImplementation.js'
 import { Fields } from '../src/remult3/Fields.js'
 import { Entity } from '../src/remult3/entity.js'
 import { remultStatic } from '../src/remult-static.js'
-import { initDataProviderOrJson } from '../server/initDataProviderOrJson'
+import { initDataProviderOrJson } from '../server/initDataProviderOrJson.js'
 
 export class DataProviderLiveQueryStorage implements LiveQueryStorage, Storage {
   repo: Promise<Repository<LiveQueryStorageEntity>>

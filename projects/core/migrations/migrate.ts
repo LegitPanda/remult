@@ -6,7 +6,7 @@ import {
   remult,
   Remult,
 } from '../index.js'
-import { initDataProviderOrJson } from '../server/initDataProviderOrJson'
+import { initDataProviderOrJson } from '../server/initDataProviderOrJson.js'
 import { doTransaction } from '../src/context.js'
 import { cast, isOfType } from '../src/isOfType.js'
 import type { SqlCommandFactory } from '../src/sql-command.js'

@@ -42,7 +42,7 @@ import { serverActionField } from '../src/server-action-info.js'
 import { remultStatic } from '../src/remult-static.js'
 import remultAdminHtml from './remult-admin.js'
 import { isOfType } from '../src/isOfType.js'
-import { initDataProviderOrJson } from './initDataProviderOrJson'
+import { initDataProviderOrJson } from './initDataProviderOrJson.js'
 
 export interface RemultServerOptions<RequestType> {
   /**Entities to use for the api */
